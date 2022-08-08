@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>About</title>
+  </head>
+  <body>
+    <div class="header_about">
+      <nav class="navbar">
+        <ul id="navbar" class="menu">
+          <li><a href="../index.html">Portfolio</a></li>
+          <li><a href="#news">Clients</a></li>
+          <li><a href="/about/index.html">About + Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <img
+      class="about"
+      src="<%= require('../src/assets/img/about.jpg') %>"
+      alt="image2"
+    />
+    <div class="text_about">
+      <p>Hello, my name is Olena</p>
+      <p>
+        Do have a photo. One of the first things I do when viewing a
+        photographer’s website is look for a picture of them, and I’m sure I’m
+        not alone. This is one of the reasons we like to have headshots for all
+        our Wonderful Machine member photographers. It’s nice to put a face to a
+        name! While you can never go wrong with a traditional headshot/portrait,
+        there are other approaches you can take as well, examples of which are
+        toward the end of the article. Do keep our interest. If you’re more of a
+        dreamer, an imaginative biography that keeps the reader engaged might be
+        right up your alley.
+      </p>
+      <a href="https://www.instagram.com/hhey.ellen/?igshid=YzAyZWRlMzg%3D">
+        <ion-icon size="large" name="logo-instagram"></ion-icon
+      ></a>
+    </div>
+
+    <div class="container">
+      <div>
+        <h2>Contact information</h2>
+        <p>+491794221182</p>
+        <p>aleonkov2001@gmail.com</p>
+        <p>
+          <a href="https://www.instagram.com/hhey.ellen/?igshid=YzAyZWRlMzg%3D">
+            <ion-icon name="logo-instagram"></ion-icon>
+            hhey.elen</a
+          >
+        </p>
+      </div>
+
+      <form>
+        <!-- <label for="fname">First Name</label> -->
+        <input type="text" id="fname" name="name" placeholder="Your name.." />
+
+        <input
+          type="text"
+          id="fname"
+          name="name"
+          placeholder="How can I contact you?"
+        />
+
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="How can I help you .."
+          style="height: 200px"
+        ></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
